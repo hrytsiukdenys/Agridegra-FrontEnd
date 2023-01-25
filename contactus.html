@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=320, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head> 
+
+    <body class="tbody" style="color:#324950; background: #FaFAFA;">
+        <div id="header2">
+            <pre></pre>
+        <div class="menusite" >
+            <input id="menu__toggle" type="checkbox" >
+            <label class="menu__btn" for="menu__toggle" >
+            <span></span>
+            </label>
+          <ul class="menu__box" >
+            <li><a class="menu__item" href="index.html">Home</a></li>
+            <li><a class="menu__item" href="#">Company</a></li>
+            <li><a class="menu__item" href="#">Profile</a></li>
+            <li><a class="menu__item" href="Tomato all.html">Products</a></li>
+            <li><a class="menu__item" href="#">Services</a></li>
+            <li><a class="menu__item" href="#">R&D</a></li>
+            <li><a class="menu__item" href="contactus.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class=container>
+            <div class="row">
+            <img id="pc" src="img/Logo.png">
+            
+            <div class=nav>
+                
+                <form>
+                    <div class=searchinput>
+                        <input name=search placeholder=Search>
+                        <img src="img/Vector.png">
+                    </div>
+                </form>
+                
+                <nav>
+                    
+                    <a href="index.html">Home</a>
+                    <a href=#>Company</a>
+                    <a href=#>Profile</a>
+                    <a href="Tomato all.html">Products</a>
+                    <a href=#>Services</a>
+                    <a href=#>R&D</a>
+                    <a href="contactus.html">Contact</a> 
+                    </div>
+                </nav>
+                
+            </div>
+        </div>
+        </div>
+
+        <figure>
+            <img src="img/bgbg.jpg">
+        </figure>
+        <div id=pear class="container" style="margin-bottom: 50px;">
+                    <h1 style="font-size: 44px; font-weight: bold;  margin-bottom: 40px; padding-top: 51px;" >Contact us</h1>
+                    <table class="cart">
+                        <tr class="cart-list">
+                            <td class="cart-item" v-for="item in cart">
+                                <div class="cart-item-img">
+                                    <img :src="'images/'+item.image" alt="">
+                                </div>
+                                <div class="cart-item-right">
+                                    <div class="cart-item-subtitle">
+                                        <h2>{{item.title}}</h2>
+                                        <p>{{item.short_text}}</p>
+                                    </div>
+                                    <a class="cart-cross" href="#" @click.prevent="removeFromCart(item.id)">
+                                        X
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <div class="col-12">
+                        <p class="offer_star" style="margin-bottom: 50px;">* * * * *</p>
+                    </div>
+                <form class="row" @submit.prevent = "makeOrder()" action="" v-if="formVisible">
+                    <div class="col-6">
+                        <div class="form-item">
+                        <p id="wbpage4txt" >Name *</p>
+                        <input v-model="contactFields[0].text" required type="text"></input><br><br>
+                        </div>
+                        <div class="form-item">
+                        <p id="wbpage4txt">Company name</p>
+                        <input v-model="contactFields[1].text"  type="text" ><br><br>
+                    </div>
+                    <div class="form-item">
+                        <p id="wbpage4txt">Position</p>
+                        <input v-model="contactFields[2].text"  type="text" ><br><br>
+                    </div>
+                    <div class="form-item">
+                        <p id="wbpage4txt">City</p>
+                        <input v-model="contactFields[3].text"  type="text" ><br><br>
+                    </div>
+                    <div class="form-item">
+                        <p id="wbpage4txt">Country</p>
+                        <input v-model="contactFields[4].text"  type="text" ><br><br>
+                    </div>
+                    <div class="form-item">
+                        <p id="wbpage4txt">Telephone</p>
+                        <input v-model="contactFields[5].text" type="text"  ><br><br>
+                    </div>
+                    <div class="form-item">
+                        <p id="wbpage4txt">Email *</p>
+                        <input v-model="contactFields[6].text"  required type="email" ><br><br>
+                    </div>
+    
+                    </div>
+                    <div class="col-6">
+                    
+                    <div class="form-item">
+                        <p id="wbpage4txt">You are a</p>
+                        <input v-model="contactFields[7].text" id="inputyou" list="your" name="your" value="seed producer">
+                        <datalist id="your">
+                          <option value="seed producer">
+                          <option value="seed buyer">
+                          <option value="seed manager">
+                          <option value="seed seller">
+                        </datalist><br><br>
+                    </div>
+                    <div class="form-item">
+                        <p id="wbpage4txt">If other, please specify</p>
+                        <input v-model="contactFields[8].text" id="inputyou" type="text" name="youspec"><br><br>
+                    </div>
+                    <div class="form-item">
+                        <p id="wbpage4txt">You are interested in</p>
+                        <textarea v-model="contactFields[9].text" type="text" name="interested" cols="40" rows="15" id="interested"></textarea>
+                    </div>
+                    <div class="form-item">
+                        <p id="wbpage4txt">Please type this code</p>
+                        <div class="verify">
+                            <img src="img/image 12.png" alt="">
+                            <input type="text">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </div>
+                    </div>
+                </form>
+                <ul class="contact-list" v-if="!formVisible">
+                    <li class="contact-item" v-for="field in contactFields">
+                        <div class="field-text" v-if="field.text">
+                            <h2>{{field.caption}}</h2>
+                            <p>{{field.text}}</p>
+                        </div>
+                    </li>
+                    
+                </ul>  
+            </div>
+        </div>
+        <div style="background-color: #ffffff;">
+        <div class="container" >
+            <div class="row">
+                <div class="col" align=center style="padding-top: 44px; margin-bottom: 44px;">
+                    <p style="font-size: 20px;color: #57984C;font-weight: bold; margin-bottom: -5px;">Our Address</p>
+                    <img src="img/Line 2.png">
+                    <p>AGRIDERA Seeds & Agriculture Ltd.<br>
+                        P.O Box 103,<br>
+                        Gedera 70750, Israel.<br>
+                        Telephone: <label style="color:#57984C"> +972 8 944 9222</label></p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="fut5">
+            <div class="container">
+                <div class="row">
+                    <div id="Text1" class="col-9" >
+                        <span > <a class="link" href="">PROFILE</a>
+                            <a class="link" href=""> MANAGEMENT</a>
+                             <a class="link" href="">  PRODUCTS</a>
+                             <a class="link" href=""> R&D</a>
+                            <a class="link" href=""> LINKS</a>
+                            <a class="link" href=""> SITEMAP</a> 
+                             <a class="link" href=""> CONTACT</a>
+                        </span>
+                    </div>
+                    <div id="lin" class=" col-3">
+                        <span>
+                            <img src="img/icosoc/Ico_in.png">
+                            <img src="img/icosoc/Ico_inst.png">
+                            <img src="img/icosoc/Ico_tube.png">
+                            <img src="img/icosoc/Ico_tw.png">
+                            <img src="img/icosoc/Ico_fb.png">
+                            <pre></pre>
+                        </span>
+                    </div> 
+            </div>  
+        </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <p class="col-12"></p>
+    
+                    <a id="foot" class="col" href="">AGRIDERA SEEDS & AGRICULTURE LTD. © 2020</a>
+                </div>
+            </div>
+        </div>
+    
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
