@@ -1,0 +1,278 @@
+@media(max-width: 1024px){
+    img.ovochi{ padding-left: 0px;
+    }  
+    #Text1{word-spacing: 10px}
+    #lin{word-spacing: 10px;}
+    img.ovochich{padding-left:50px;}
+/* 2-page */
+    .brff{width:300px;}
+    #bgvw{width: 300px;}
+    div#abgv.container > div.row > div.col-4  > img{width: 100%;}
+    
+    /* 3-page */
+    #spiker3{width:100%;}
+    .h1t{font-size: 45px;}
+    /* 4-page */
+    #inputyou{width: 450px;}
+    #interested{width: 450px;} 
+    #inter{width:200px; height: 55px; border-radius: 10px;}
+    #btn4{height: 55px; width: 150px;}  
+      
+}
+@media(max-width: 768px){
+    nav{visibility: hidden;}
+.menusite{visibility: unset;}  
+.nav{width: 100%;} 
+.sizpc{width: 350px;} 
+.size{font-size: 40px;}
+.ovochi{width: 225px;}
+.textovochi{font-size: 20px;}
+.atext{font-size: 14px;}
+.panelveg{width: 30%; height: 30%;}
+.anww{font-size: 10px;}
+#Text1{word-spacing: 10px;font-size: 13px;}
+#lin{word-spacing: 2px;}
+#lin>span>img{width: 25px; height: 25px;}
+img.ovochich{padding-left:10px;}
+/* 2-page */
+#header2{padding-bottom: 50px;}
+.brff{width:200px;height: 200px;}
+    #bgvw{width: 200px; margin-block-start: -5px; height:80px;}
+    .about{font-size:17px;}
+    .atext{font-size: 15px;}
+    .toffer_title{font-size: 36px}
+    /* 3-page */
+    .h1t{font-size: 35px;}
+    #header3{padding-bottom: 50px;}
+    .ttext{font-size: 20px; padding-top: 20px;}
+    /* 4-page */ 
+    #inputyou{width: 250px;}
+    #interested{width: 250px;} 
+    #inter{width:180px; height: 55px; border-radius: 10px; }
+    #btn4{height: 55px; width: 150px;}  
+    .infoinput{width: 250px;}
+    #kapcha{float:right; margin-block-start: -50px;}    
+}
+@media(max-width: 640px){
+#foot{font-size: 10px;}
+.footer{height:40px ;}
+.link{font-size: 9px;}
+#lin>span>img{width: 16px; height: 16px;}
+.atext{font-size: 10px;}
+.textovochi{font-size: 15px;}
+img.ovochich{padding-left:10px; width: 100%;}
+.ovochi{width: 100%;}
+.size{font-size: 30px;}
+.offercont__title{font-size:20px;}
+.offercont__text{font-size:15px;}
+.sizpc{width: 195px;}
+.anww{font-size: 8px; } 
+.panelveg{width: 25%; height: 25%; margin-bottom: 10px;}
+#pc{width: 25%; height: 25%;}
+.heads{font-size: 30px;}
+.searchinput{width: 220px;}
+.searchinput input{width: 200px;}
+.br0{margin-bottom:100px; width: 120px;
+    height: 45px;}
+#header{background-size: 200%;}
+.menu__box{width: 160px;}
+.menu__item{font-size: 10px; padding: 12px 12px;}
+/* 2-page */
+#header2{padding-bottom: 50px;}
+.brff{width:150px;height: 150px;}
+    #bgvw{width: 150px; margin-block-start: -5px; height:80px;}
+    .about{font-size:17px;}
+    .atext{font-size: 13px;}
+    .qtext{font-size: 13px;}
+    .vegetext{font-size: 16px;}
+    .toffer_title{font-size: 26px}
+    .toffer_star{font-size: 26px}
+    .toffer_text{font-size:15px}
+    .tts{font-size:15px}
+    .tts2{font-size:15px; margin-block-start: -44px;}
+    div.container>img{height: 50px;}
+    /* 3-page */
+    .h1t{font-size: 25px;}
+    #header3{padding-bottom: 50px;}
+    .ttext{font-size: 12px; padding-top: 20px; margin-inline-start:90px}
+    #picrb{width: 60px;}
+    /* 4-page */
+    #inputyou{width: 250px;}
+    #interested{width: 250px;} 
+    #inter{width:110px; height: 55px; border-radius: 10px; }
+    #btn4{height: 55px; width: 130px; padding-left: 10px; padding-right: 10px;}  
+    .infoinput{width: 250px;}
+    #kapcha{float:right; margin-block-start: -50px;} 
+    #wbpage4txt{font-size: 12px;}     
+}
+@media(max-width: 480px){
+.panelveg{width: 20px; height: 20px; margin-bottom: 0px;}
+.anww{font-size: 10px; }
+#header{background-size: 275%;} 
+.heads{font-size: 25px;}
+.textovochi{font-size: 12px;} 
+#Text1{word-spacing: 5px;font-size: 8px;}  
+#foot{font-size: 8px;}
+.footer{height:35px ;}
+.link{font-size: 8px;}
+#lin>span>img{width: 16px; height: 16px;} 
+#lin{padding-left: 0px;}
+/* 2-page */
+#header2{padding-bottom: 50px;}
+.brff{width:125px;height: 125px;}
+    #bgvw{width: 125px; margin-block-start: 0px; height:80px;}
+    .about{font-size:15px;}
+    .atext{font-size: 13px;}
+    .qtext{font-size: 10px;}
+    .vegetext{font-size: 13px;}
+    .toffer_title{font-size: 20px}
+    .toffer_star{font-size: 20px}
+    .toffer_text{font-size:13px}
+    .tts{font-size:13px}
+    .tts2{font-size:13px; margin-block-start: -44px;}
+    div.container>img{height: 50px;}
+    /* 3-page */
+    .h1t{font-size: 20px;}
+    #header3{padding-bottom: 50px;}
+    .ttext{font-size: 12px; padding-top: 20px; margin-inline-start:60px}
+    #picrb{width: 50px;}
+    .offercont__star{font-size: 15px}
+    .btn-rounded{border-radius: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    font-size: 10px;}
+    .btn-rounded img{width: 35px;}
+    /* 4-page */
+    #inputyou{width: 200px;}
+    #interested{width: 200px;} 
+    #inter{width:200px; height: 55px; border-radius: 10px; }
+    #btn4{height: 55px; width: 130px; padding-left: 10px; padding-right: 10px;}  
+    .infoinput{width: 200px;}
+    #kapcha{float:right; margin-block-start: -50px;} 
+    #wbpage4txt{font-size: 12px;}     
+}
+@media(max-width: 400px){
+.panelveg{width: 20px; height: 20px; margin-bottom: 0px;}
+.anww{font-size: 7px; }
+div.navw>div.container>div.row>div.col{width: 33px;} 
+div.navw>div.container>div.row>div.col-2{width: 66px;}
+div#spiker.col-4{width: 132px;}
+div#spiker.col{width: 200px;}
+#header{background-size: 300%;} 
+.heads{font-size: 20px;}
+.textovochi{font-size: 10px;} 
+#Text1{word-spacing: 5px;font-size: 8px;}  
+#foot{font-size: 7px;}
+.footer{height:35px ;}
+.link{font-size: 7px;}
+#lin>span>img{width: 10px; height: 12px;} 
+div.col-9{width: 293px;}
+div.col-3{width: 107px;}
+.searchinput{width: 180px;}
+.searchinput input{width: 160px;}
+.atext{font-size: 8px;}
+.size{font-size: 20px}
+/* 2-page */
+#header2{padding-bottom: 50px;}
+.brff{width:110px;height: 110px;}
+    #bgvw{width: 110px; margin-block-start: 0px; height:50px;}
+    .about{font-size:12px;}
+    .atext{font-size: 10px;}
+    .qtext{font-size: 10px;}
+    .vegetext{font-size: 11px;}
+    .toffer_title{font-size: 17px}
+    .toffer_star{font-size: 17px}
+    .toffer_text{font-size:10px}
+    .tts{font-size:13px}
+    .tts2{font-size:13px; margin-block-start: -44px;}
+    div.container>img{height: 50px;}
+    div.col-8{width: 265px;}
+    /* 3-page */
+    .bok{font-size: 10px;}
+    .h1t{font-size: 15px;}
+    #header3{padding-bottom: 50px;}
+    .ttext{font-size: 10px; padding-top: 5px; margin-inline-start:60px}
+    #picrb{width: 40px;}
+    .offercont__star{font-size: 10px; margin-bottom: 0px;}
+    .btn-rounded{border-radius: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    font-size: 10px;}
+    .btn-rounded img{width: 35px;}
+    .char{font-size: 10px;}
+    #lc1{width: 100%;}
+    /* 4-page */     
+    #inputyou{width: 180px;}
+    #interested{width: 180px;} 
+    #inter{width:180px; height: 55px; border-radius: 10px; margin-block-start: -5px;}
+    #btn4{height: 55px; width: 130px; padding-left: 10px; padding-right: 10px;}  
+    .infoinput{width: 190px;}
+    #kapcha{float:right; margin-block-start: -42px; padding-right: -10px; width: 60px;} 
+    #wbpage4txt{font-size: 10px;} 
+}
+@media(max-width: 320px){
+    .panelveg{width: 20px; height: 20px; margin-bottom: 0px;}
+    .anww{font-size: 6px; }
+    div.navw>div.container>div.row>div.col{width: 26px;} 
+    div.navw>div.container>div.row>div.col-2{width: 53px;}
+    div#spiker.col-4{width: 106px;}
+    div#spiker.col{width: 160px;}
+    #header{background-size: 375%;} 
+    .heads{font-size: 17px;}
+    .textovochi{font-size: 8px;} 
+    #Text1{word-spacing: 5px;font-size: 7px;}  
+    #foot{font-size: 7px;}
+    .footer{height:35px ;}
+    .link{font-size: 7px;}
+    #lin>span>img{width: 8px; height: 15px;} 
+    div.col-9{width: 200px;}
+    div.col-3{width: 120px;}
+    .searchinput{width: 140px;}
+    .searchinput input{width: 120px;}
+    .atext{font-size: 8px;}
+    .size{font-size: 20px}
+    .sizpc{width: 160px; height: 160px;}
+    /* 2-page */
+    #header2{padding-bottom: 50px;}
+.brff{width:90px;height: 90px;}
+    #bgvw{width: 90px; margin-block-start: 0px; height:50px;}
+    .about{font-size:12px;}
+    .atext{font-size: 10px;}
+    .qtext{font-size: 8px;}
+    .vegetext{font-size: 8px;}
+    .toffer_title{font-size: 17px}
+    .toffer_star{font-size: 17px}
+    .toffer_text{font-size:10px}
+    .tts{font-size:13px}
+    .tts2{font-size:13px; margin-block-start: -44px;}
+    div.container>img{height: 50px;}
+    div.col-8{width: 265px;}   
+    /* 3-page */
+    .bok{font-size: 8px;}
+    .h1t{font-size: 12px;}
+    #header3{padding-bottom: 50px;}
+    .ttext{font-size: 8px; padding-top: 5px; margin-inline-start:40px}
+    #picrb{width: 35px;}
+    .offercont__star{font-size: 10px; margin-bottom: 0px;}
+    .btn-rounded{border-radius: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    font-size: 10px;}
+    .btn-rounded img{width: 35px;}
+    .char{font-size: 10px;}
+    #lc1{width: 100%; margin-block-start: 0px;}
+    /* 4-page */
+    #inputyou{width: 140px;}
+    #interested{width: 140px;} 
+    #inter{width:140px; height: 55px; border-radius: 10px; margin-block-start: -10px;}
+    #btn4{height: 55px; width: 130px; padding-left: 10px; padding-right: 10px;}  
+    .infoinput{width: 140px;}
+    #kapcha{float:right; margin-block-start: -42px; padding-right: -10px; width: 60px;} 
+    #wbpage4txt{font-size: 8px;}      
+}
